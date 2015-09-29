@@ -1,0 +1,21 @@
+{
+    "name": "gopalkildoliya/pagespeed-api-laravel",
+    "description": "Google's PageSpeed API Service provider for laravel. It will provide PageSpeed score and suggestion to speedup your website.",
+    "type": "laravel-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gopal Kildoliya",
+            "email": "gopalkildoliya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GopalKildoliya\\PageSpeedApi\\": "src/"
+        }
+    }
+}
